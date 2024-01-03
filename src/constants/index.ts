@@ -3,6 +3,8 @@ let darkMode = 1; // 0 when dark mode is on and can apply other color combinatio
 export const COLORS = {
   PRIMARY: '#5E3B63',
   SECONDARY: '#D26E25',
+  YELLOW: '#F7AD45',
+  lightYellow: '#FF8F3E',
   BG: darkMode ? '#EFE2E1' : '',
   TEXT: darkMode ? '#000' : '',
   BORDER: darkMode ? 'darkgray' : '',

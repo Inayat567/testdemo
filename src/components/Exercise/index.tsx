@@ -15,7 +15,7 @@ const Exercise = (props: ExerciseProps) => {
         <Image source={props.image} />
         <View style={styles.icon}>
           <TouchableOpacity onPress={() => console.log('Clicked')}>
-            <Icon name={props.name} color={COLORS.SECONDARY} size={30} />
+            <Icon name={props.name} color={COLORS.lightYellow} size={30} />
           </TouchableOpacity>
           <Text>Play</Text>
         </View>
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   card: {
     width: '50%',
     height: '90%',
-    backgroundColor: COLORS.SECONDARY,
+    backgroundColor: COLORS.lightYellow,
     margin: 5,
     borderRadius: 10,
   },

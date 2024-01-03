@@ -3,7 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {
-  Account,
+  Profile,
   Daak,
   Day,
   Home,
@@ -49,7 +49,7 @@ const StackNavigator = () => {
 
 const RootNavigation = () => {
   const routes = [
-    {name: 'Profile', component: Account, icon: 'person-sharp'},
+    {name: 'Profile', component: Profile, icon: 'person-sharp'},
     {name: 'Bookmark', component: Daak, icon: 'bookmark-sharp'},
     {name: 'Home', component: StackNavigator, icon: 'shapes-sharp'},
     {name: 'Notification', component: Notification, icon: 'notifications'},

@@ -1,9 +1,10 @@
-import Home from './home';
+import Home from './Home';
+import Bookmark from './Bookmark';
+import Workout from './WorkOut';
+import Profile from './Profile';
+import Daak from './Bookmark';
+import Notification from './Notification';
+import Setting from './Setting';
 import Day from './Day';
-import Workout from './workOut';
-import Account from './account';
-import Daak from './daak';
-import Notification from './notification';
-import Setting from './setting';
 
-export {Home, Day, Workout, Account, Daak, Notification, Setting};
+export {Home, Bookmark, Workout, Profile, Day, Daak, Notification, Setting};

@@ -1,6 +1,7 @@
 import {StyleSheet, Text} from 'react-native';
 import React from 'react';
 import {headingProps} from '../../constants/types';
+import {COLORS} from '../../constants';
 
 const Heading = (props: headingProps) => {
   return (
@@ -17,6 +18,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     marginLeft: 20,
     marginVertical: 10,
+    color: COLORS.PRIMARY,
   },
   text: {
     fontWeight: 'bold',

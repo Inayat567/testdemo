@@ -1,6 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {SmallCardProps} from '../../constants/types';
+import {COLORS} from '../../constants';
 
 const SmallCard = (props: SmallCardProps) => {
   const AddSuffix = (num: number) => {
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#F7AD45',
+    backgroundColor: COLORS.YELLOW,
     marginVertical: 10,
     marginLeft: 15,
     borderRadius: 10,
