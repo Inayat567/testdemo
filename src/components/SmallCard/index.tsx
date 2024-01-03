@@ -27,11 +27,10 @@ export default SmallCard;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: .8,
     flexDirection: 'row',
     backgroundColor: COLORS.YELLOW,
-    marginVertical: 10,
-    marginLeft: 15,
+    margin: 10,
     borderRadius: 10,
     padding: 12,
     height: '80%',

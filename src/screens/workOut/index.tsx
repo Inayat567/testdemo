@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     height: '10%',
     flexDirection: 'row',
-    justifyContent: 'center',
   },
   progressText: {
     fontSize: 18,
